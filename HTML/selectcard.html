@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Card</title>
+    <link rel="stylesheet" href="../CSS/selectcard.css">
+</head>
+
+<body>
+    <h1>Select Card</h1>
+    <div class="card">
+        <img src="../src/img/Mastercard-Logo.jpg" alt="Mastercard">
+        <img src="../src/img/Paypal-Logo.png" alt="PayPal">
+        <img src="../src/img/Visa-Logo.png" alt="Visa">
+        <img src="../src/img/American-Express-Logo.png" alt="American Express">
+        <img src="../src/img/Discover-Logo.png" alt="Discover Card">
+    </div>
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <label class="carnumer" for="cardnumber">Card Number</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="carnumber" type="text" placeholder="1234 3456 5678 6789">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="exp" for="exp">Expiry Date</label>
+                </td>
+                <td>
+                    <label class="cvv" for="cvv">CVC/CVV</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="exp" type="text" placeholder="MM/YY">
+                </td>
+                <td>
+                    <input id="cvv" type="password" placeholder="***">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Save</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

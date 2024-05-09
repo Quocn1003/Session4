@@ -1,0 +1,40 @@
+form{
+    font-family: sans-serif;
+    background-color: #F8F9FB;
+    width: 250px;
+    height: 600px;
+    
+}
+table{
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.4);
+    padding: 2px;
+    margin-bottom: 2px;
+    width: 250px;
+}
+#title{
+    text-align: left;
+}
+.price{
+    font-weight: bold;
+    text-align: right;
+}
+#total .price{
+    float: right;
+}
+.total{
+    font-weight: bold;
+}
+#total{
+    padding: 7px;
+    background-color: #DADEFF;
+    border-radius: 5px;
+}
+#pricedetails{
+    border-radius: 10px 10px 0 0;
+}
+.data,.bag{
+    color: rgb(0, 0, 0,0.8);
+}
+th,td{
+    padding: 7px;
+}

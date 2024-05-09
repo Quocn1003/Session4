@@ -1,0 +1,36 @@
+body{
+    background-color: #F2F2F2;
+}
+
+table{
+    border-spacing: 50px;
+}
+td{
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 100px;
+}
+span{
+    display: flex;
+    margin-top: 2px;
+    font-family: sans-serif;
+}
+.name{
+    font-weight: bold;
+}
+button{
+    color: white;
+    background-color: #42A4C5;
+    border: none;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: white
+}

@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input[type="text"],
+  select {
+    width: calc(100% - 24px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    background-image: url('visa-horizontal.png'); /* Hình ảnh mặc định */
+    background-size: 80px 30px; /* Kích thước hình ảnh */
+    background-repeat: no-repeat;
+    background-position: right center; /* Đặt hình ảnh bên phải */
+    padding-right: 40px; /* Để không che phủ hình ảnh */
+    appearance: none;
+  }
+  
+  /* Thiết lập hình ảnh cho từng tùy chọn */
+  option[value="visa"] {
+    background-image: url('visa-horizontal.png');
+  }
+  option[value="mastercard"] {
+    background-image: url('mastercard-horizontal.png');
+  }
+  option[value="amex"] {
+    background-image: url('amex-horizontal.png');
+  }
+  option[value="discover"] {
+    background-image: url('discover-horizontal.png');
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #004080;
+  }
+  
